@@ -1,0 +1,174 @@
+/* Body */
+
+body {
+    margin: 0;
+    font-family: 'Montesrrat', sans-serif;
+    min-width: 544px;
+    height: 1000px;
+}
+
+h1,
+h2,
+h3,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Navbar */
+
+#navbar {
+    background-color: #E3F6F5;
+    padding: 0.75rem;
+}
+
+h1.brand-name {
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+h1.brand-name:hover {
+    cursor: pointer;
+}
+
+.nav-links {
+    display: inline;
+    position: absolute;
+    top: 1.15rem;
+    right: 24px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #272343;
+    display: inline-block;
+    padding: 0.75rem;
+    margin: 0 5px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* Header */
+
+#header {
+    background-color: white;
+    display: block;
+}
+
+.header-content {
+    text-align: center;
+    padding: 6rem;
+    display: block;
+    position: static;
+}
+
+.header-img {
+    display: inline-block;
+    margin: 25px;
+}
+
+.profile-pic {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.header-text {
+    display: inline-block;
+    text-align: left;
+    padding: 2rem;
+    transform: translateY(-25%);
+}
+
+.header-text>h1 {
+    color: rgb(55, 55, 55);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header-text>h2 {
+    color: grey;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* Main Content */
+
+#main-content {
+    background-color: #E3F6F5;
+    display: block;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.post-card {
+    width: 70vw;
+    padding: 2rem 4rem;
+    margin: 2rem auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 2px;
+    text-align: left;
+}
+
+.post-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Post Card Styles */
+
+.post-card-text-div {
+    display: inline-block;
+}
+
+.post-card-title {
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.post-card-date {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.post-card-desc {
+    font-weight: 400;
+    color: grey;
+    display: inline-block;
+    width: 45vw;
+    text-align: justify;
+}
+
+.post-card-img {
+    width: 20vw;
+    margin-left: 4vw;
+}
+
+
+/* Footer */
+
+#footer {
+    margin: 0;
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+.made-by,
+.copyright {
+    font-size: 1.2rem;
+    font-weight: 400;
+}

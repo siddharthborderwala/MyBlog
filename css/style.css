@@ -285,6 +285,28 @@ h1.brand-name:hover {
     font-weight: 400;
 }
 
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    color: rgb(55, 55, 55);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+#back-to-top:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.fa-arrow-up {
+    font-size: 2rem;
+    margin: 0.5rem auto;
+}
+
 @media screen and (max-width: 800px) {
     #navbar {
         text-align: center;
@@ -409,5 +431,13 @@ h1.brand-name:hover {
     .made-by,
     .copyright {
         font-size: 0.8rem;
+    }
+    
+    #back-to-top {
+        width: 40px;
+        height: 40px;
+    }
+    .fa-arrow-up {
+        font-size: 1.5rem;
     }
 }

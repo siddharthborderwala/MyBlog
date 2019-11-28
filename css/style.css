@@ -181,10 +181,12 @@ h1.brand-name:hover {
     margin: 1rem 0.5rem;
     padding: 0.25rem;
     width: 30vw;
+    max-width: 280px;
     height: 1.5rem;
     outline: none;
     border: none;
     border-bottom: 2px solid #272343;
+    border-radius: 2px;
     background-color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
 }
@@ -432,7 +434,6 @@ h1.brand-name:hover {
     .copyright {
         font-size: 0.8rem;
     }
-    
     #back-to-top {
         width: 40px;
         height: 40px;
